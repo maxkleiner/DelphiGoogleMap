@@ -1,10 +1,12 @@
 ﻿# DelphiGoogleMap  [![License](https://img.shields.io/badge/License-Apache%202.0-yellowgreen.svg)](https://opensource.org/licenses/Apache-2.0)
 
-**TEdgeGoogleMapViewer**: a Delphi "WebView2" Component to View Google Map with integrated Routing and Markers Support
+**TEdgeGoogleMapViewer**: a Delphi "WebView2" Component to View Google Map with integrated Routing and Markers Support for maXbox5 scripting
 
 ### Actual official version 1.6.0 (VCL)
 
 This component is based on [TEdgeBrowser Component](https://docwiki.embarcadero.com/RADStudio/Alexandria/en/Using_TEdgeBrowser_Component_and_Changes_to_the_TWebBrowser_Component) (available from Delphi 10.4)
+
+![gmapsScreenshot2024-08-30185952](https://github.com/user-attachments/assets/ae678b65-e09e-42bd-b44a-dc1f3ae875df)
 
 It's very easy to use Google Maps API directly from Delphi Code, settings Component properties or invoking methods, for example:
 
