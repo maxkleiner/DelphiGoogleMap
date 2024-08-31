@@ -8,6 +8,54 @@ This component is based on [TEdgeBrowser Component](https://docwiki.embarcadero.
 
 ![gmapsScreenshot2024-08-30185952](https://github.com/user-attachments/assets/ae678b65-e09e-42bd-b44a-dc1f3ae875df)
 
+We can also script that component in maXbox5
+
+![1325_gmaps_script_Screenshot2024-08-31 212156](https://github.com/user-attachments/assets/67a380c1-d726-4c79-8473-b42ec0a78739)
+
+```pascal
+ EdgeGoogleMapViewer:= TEdgeGoogleMapViewer.create(formmain)
+    with EdgeGoogleMapViewer do begin
+    parent:= formmain;
+    setbounds(0,09,900,300);
+    showhint:= true;
+    hint:= 'this hint from EdgeGoogleMapViewer - you need an APèI Key';
+    RegisterGoogleMapsApiKey('AIzaSyAuFKrYAJhFAEg3vYTxj_________________');
+    writ(apikey) 
+    //Left:= 0;
+    //setbounds
+    //Top:= 209
+    //Width:= 1445
+    //Height:= 370
+    Align:= alClient
+    ShowZoomControl(true);
+    //TabOrder:= 1
+    //OnContainsFullScreenElementChanged = EdgeGoogleMapViewerContainsFullScreenElementChanged
+    alat.latitude := 37.7699298;
+    alat.longitude := -122.4469157;
+    loaded2;
+    //showmap('cologne, germany');
+    sleep(500);
+    //showmap3(alat);
+    MapAddress:= 'Via Santa Cecilia 4, Carugate, Milano'
+    //MapLatitude:= 25.767314000000000000
+    //MapLongitude:= -80.135694000000000000
+    //50.930446, 6.953589
+    //alat.latitude:= 25.767314000000000000
+    //alat.longitude:= -80.135694000000000000
+    alat.latitude:= 50.930446
+    alat.longitude:= 6.953589
+    mapzoom:= 4;
+    BeforeShowMap:= @EdgeGoogleMapViewerBeforeShowMap
+    //showmap3(alat);
+    showmap3(alat);
+    //BeforeShowMap:= @EdgeGoogleMapViewerBeforeShowMap
+    //TJavaScriptMakeSafeString
+  //writ(TJavaScriptLiteralFunc(getjavascript, []));
+  writ(GetJSGeometry);
+  writ(GetJSPutPolygon);
+  end 
+```
+
 It's very easy to use Google Maps API directly from Delphi Code, settings Component properties or invoking methods, for example:
 
 ```pascal
