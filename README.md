@@ -56,6 +56,8 @@ We can also script that component in maXbox5
   end 
 ```
 
+![1325GMapsEuropeScreenshot2024-09-01171351](https://github.com/user-attachments/assets/c0638cff-988a-4943-9c12-0b4fed5d0a68)
+
 It's very easy to use Google Maps API directly from Delphi Code, settings Component properties or invoking methods, for example:
 
 ```pascal
