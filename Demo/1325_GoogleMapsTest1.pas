@@ -710,7 +710,7 @@ with formmain do begin
     setbounds(0,09,900,300);
     showhint:= true;
     hint:= 'this hint from EdgeGoogleMapViewer - you need an APËI Key';
-    RegisterGoogleMapsApiKey('AIzaSyAuFKrYAJhFAEg3vYTxjLHREW26cMP3KCw');
+    RegisterGoogleMapsApiKey('AIzaSyAuFKrYAJhFAEg3vYTxj__________________');
     writ(apikey) 
     //Left:= 0;
     //setbounds
